@@ -1,0 +1,13 @@
+{
+  "name": "쾌적한 울프",
+  "description": "쾌적하게 보는 사람을 위해 - 윤지만 ( 비공개 용 )",
+  "version": "1.3.0",
+  "manifest_version": 3,
+  "permissions": [],
+  "content_scripts": [
+    {
+        "matches": ["https://wfwf138.com/view?*"],
+        "js": ["content_script.js"]
+    }
+]
+}
